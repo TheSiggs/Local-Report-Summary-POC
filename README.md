@@ -13,7 +13,7 @@ further usage
 # Setup
 Run the following commands to set up the Model (You can press CTRL-d to quit the prompt window which pops up)
 ```
-make lama-start run-lama32
+make start-lama pull-models
 ```
 
 Once the model is setup and running run the following command to install the necessary packages
