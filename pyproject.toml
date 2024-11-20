@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ai-summary"
+version = "0.1.0"
+description = ""
+authors = ["Sam Siggs <sam.siggs@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+langchain-core = "^0.3.19"
+tiktoken = "^0.8.0"
+chromadb = "^0.5.20"
+onnxruntime = "^1.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
